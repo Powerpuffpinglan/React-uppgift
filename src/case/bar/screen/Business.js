@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Weather from '../container/Weather';
 import ListGroup from '../container/ListGroup';
-import Image from '../component/Image';
 import { getBusiness, getWeather } from '../../../common/function/API';
 const API_KEY= "430e77b06ba15e65d8e31f41dbfbb1fc"; 
 
@@ -12,22 +10,11 @@ class Business extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      Bar: [],
-      Vader: []
+      Bar: []
     }
   }; 
 
   componentDidMount(){ 
-    getWeather().then((response) => {
-      console.log(response.data)
-      this.setState({
-       city: response.data.name,
-       temperature: response.data.main.temp,
-       country: response.data.sys.country,
-       humidity: response.data.main.humidity,
-       description: response.data.weather[0].description
-      })
-    })
     getBusiness().then((response) => {
      console.log(response.data)
      this.setState({

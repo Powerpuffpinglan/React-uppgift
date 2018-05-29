@@ -16,9 +16,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <div class= "row">
+          <i class="fas fa-sun App-logo mx-auto" style={{fontSize:80, color:'yellow'}}></i><i class="fas fa-beer App-logo mx-auto" style={{fontSize:80, color:'yellow'}}></i></div>
           <h1 className="App-title">Öl och Väder</h1><br/>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="/hem">Meny</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

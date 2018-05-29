@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 class HomeSite extends Component {  
 render() {
     return (
-        
-        <div >
+        <div>
         <br/>
         <br/>
         <br/>
