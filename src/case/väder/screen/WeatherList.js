@@ -47,11 +47,11 @@ class WeatherList extends Component {
           </div>
           <div class="col-12">
       <ul style={{fontFamily: '"Comic Sans MS", cursive, sans-serif'}} className ="list-unstyled text-center">  
-      <li>{this.state.city}</li>
-      <li>{this.state.country}</li>
-      <li>{this.state.temperature}</li>
-      <li>{this.state.humidity}</li>
-      <li>{this.state.description}</li>
+      <p>Stad:<li>{this.state.city}</li></p>
+      <p>Land:<li>{this.state.country}</li></p>
+      <p>Temperatur:<li>{this.state.temperature}</li></p>
+      <p>Luftfuktighet:<li>{this.state.humidity}</li></p>
+      <p>Väder:<li>{this.state.description}</li></p>
       </ul><br/>
       <Image/>
       </div>
