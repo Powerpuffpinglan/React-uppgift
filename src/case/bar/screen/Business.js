@@ -44,7 +44,7 @@ class Business extends Component {
               {this.state.Bar.map((row)=>{
                 return <ListGroup 
                 data={[
-                  <p>Veriferad:</p>{ info: row.verified ? 'Verifierad!' : 'Inte Verifierad'},
+                  { info: row.name},
                   { info: row.telephone},   
                   { info: row.adress},
                   { info: row.city},

@@ -39,7 +39,7 @@ class WeatherList extends Component {
       <br/>
       <br/>
       <br/>
-    
+     
       <h1 style={{fontFamily: '"Comic Sans MS", cursive, sans-serif'}}>Vädret i Trollhättan</h1>
       <div class="col">
         <div class="row">
